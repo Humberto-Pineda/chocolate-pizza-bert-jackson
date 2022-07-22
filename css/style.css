@@ -15,9 +15,16 @@ main{
   width:950px;
   margin: auto;
 }
-
+.border{
+  background-repeat:repeat;
+  background-image: url("/img/hr-img.png");
+  width: 950px;
+  margin: auto;
+  height: 15px;
+  margin: 30px auto 30px auto;
+}
 .borderimage{
-  height:25px;
+  height:20px;
 }
 
 ul{
@@ -28,6 +35,7 @@ ul{
 
 #notepad {
   z-index: 1;
+  width:950px;
 }
 
 h1 {
@@ -40,4 +48,27 @@ h2 {
   font-size: 40px;
   font-weight: 600;
   font-family: 'Dancing Script', cursive;
+}
+footer{
+  margin:auto;
+  width:950px;
+
+}
+main div:last-of-type{
+  display:flex;
+  justify-content: space-around;
+}
+a{
+  border: rgb(184, 56, 56) solid 20px; 
+  width:120px;
+  height:15px;
+  background-color: rgb(184, 56, 56);
+  color:white;
+  text-decoration: none;
+}
+#centerFoot{
+  margin-top:20px;
+}
+#cake{
+  width:950px;
 }
