@@ -1,19 +1,27 @@
 header {
   display: flex;
   width: 950px;
-  background-color: cadetblue;
   justify-content: space-between;
   margin: auto;
+  padding-top: 15px;
   }
 
 #icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+  }
+
+  #icons img {
+    margin: 0 .5px 0 .5px;
+  }
+
 main{
   width:950px;
   margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px gray solid;
+  z-index: 1;
 }
 .border{
   background-repeat:repeat;
@@ -29,8 +37,23 @@ main{
 
 ul{
   columns: 2;
-  background-image: url("img/notebookbackgrd-bg.png");
+  padding-top: 20px;
+  width: 700px;
+  margin: auto;
+  height: 140px;
+}
+
+#ullist {
+  background-image: url("/img/notebookbackgrd-bg.png");
   z-index: 1;
+  width: 950px;
+  height: 160px;
+}
+
+li {
+  margin: auto;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
 }
 
 #notepad {
@@ -50,25 +73,93 @@ h2 {
   font-family: 'Dancing Script', cursive;
 }
 footer{
-  margin:auto;
+  margin:0 auto 20px auto;
   width:950px;
-
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
 }
+
+footer img {
+  position: absolute;
+  bottom: 185px;
+}
+
+footer span {
+  text-align: center;
+  color: darkgrey;
+}
+
 main div:last-of-type{
   display:flex;
   justify-content: space-around;
+  align-items: center;
+  height:100px;
+}
+main div:last-of-type div{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right:30px;
+  padding-left:30px;
+  box-sizing:border-box ;
 }
 a{
   border: rgb(184, 56, 56) solid 20px; 
-  width:120px;
+  width:150px;
   height:15px;
   background-color: rgb(184, 56, 56);
   color:white;
   text-decoration: none;
+  text-align: center;
 }
 #centerFoot{
   margin-top:20px;
 }
 #cake{
   width:950px;
+}
+
+header div {
+  display: flex;
+}
+
+header div h2 p {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+#pinterest {
+  padding-right: 10px;
+}
+
+#printer {
+  float: right;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+main span  {
+  color: darkgray;
+}
+
+#nameofGirl {
+  font-size: 20px;
+  font-family:'Merriweather', serif;
+}
+
+#aboutGirl {
+  font-size: 20px;
+}
+
+article {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
