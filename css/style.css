@@ -44,7 +44,7 @@ ul{
 }
 
 #ullist {
-  background-image: url("/img/notebookbackgrd-bg.png");
+  background-image: url("../img/notebookbackgrd-bg.png");
   z-index: 1;
   width: 950px;
   height: 160px;
